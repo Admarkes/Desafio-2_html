@@ -1,0 +1,105 @@
+body{
+    font-family: arial;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.cadastro {
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.entrada {
+    font-family: arial;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#titulo {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.cadastroClientes, .cadastroProdutos {
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+
+    padding: 30px;
+    margin: 0 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 0 27px rgb(0 0 0 / 10%);
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: arial;
+}
+
+.links a{
+    color: rgb(145, 92, 182);
+}
+
+p.descricao {
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+    margin-block: 55px;
+}
+
+nput#cidadecx {
+    border-radius: 6px;
+}
+
+
+
+input#fonecx, input#nomecx, input#emailcx, input#cidadecx, input#nomepcx, input#catcx, input#quantcx, input#identcx {
+    border-radius: 6px;
+}
+
+.subtitulo input:focus{
+    
+    background:#00c0ac;
+}
+
+.button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(145, 92, 182);
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    border-style: none;
+}
+
+.glow-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .8);
+}
+
+h2.txt {
+    font-size: 35px;
+    font-family: arial;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 11px;
+}

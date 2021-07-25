@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo"><strong>Cadastro de produtos e clientes</strong></h1>
+    </header>
+
+        <div class="cadastro">
+            <div class="cadastroClientes">
+                <form>
+                    <h2 class="txt"><strong>Cadastro de Clientes</strong></h2>
+                    <div class="entrada">
+                        <lable id="nome" for="nome"><strong>Nome do cliente</strong></lable>
+                        <input id="nomecx" type="text" nome="nome" required>
+                    </div>
+                    <div class="entrada">
+                        <lable id="email"><strong>E-mail</strong></lable>
+                        <input id="emailcx" type="email" nome="email" required>
+                    </div>
+                    <div class="entrada">
+                        <lable id="cidade"><strong>Cidade</strong></lable>
+                        <input id="cidadecx" type="text" nome="cidade" required>
+                    </div>
+                    <div class="entrada">
+                        <lable id="fone"><strong>Telefone</strong></lable>
+                        <input id="fonecx" type="tel" nome="fone" required>
+                    </div>
+                    <button type="submit" class="button glow-button" onclick="cadastrarCliente()">Cadastrar Cliente</button>
+                </form>
+            </div>
+    
+            <div class="cadastroProdutos">
+                <form>
+                    <h2 class="txt"><strong>Cadastro de Produtos</strong></h2>
+                    <div class="entrada">
+                        <lable id="nomep" for="nomep"><strong>Nome do produto</strong></lable>
+                        <input id="nomepcx" type="text" nome="nomep" required>
+                    </div>
+                    <div class="entrada">
+                        <lable id="cat"><strong>Categoria</strong></lable>
+                        <input id="catcx" type="text" nome="catcx" required>
+                    </div>
+                    <div class="entrada">
+                        <lable id="quant"><strong>Quantidade</strong></lable>
+                        <input id="quantcx" type="text" nome="quant" required>
+                    </div>
+                    <div class="entrada">
+                        <lable id="ident"><strong>ID</strong></lable>
+                        <input id="identcx" type="tel" nome="ident" required>
+                    </div>
+                    <button type="submit" class="button glow-button" onclick="cadastrarProduto()">Cadastrar Produto</button>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <br>
+            <div>
+                <p class="descricao">Site desenvolvido por Anderson Marques</p>
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/andersondmarques/">Linkedin</a>
+                <a href="https://twitter.com/mandersonrj">Twitter</a>
+                <a href="mailto:marques.anderson53@gmail.com">Email</a>
+            </div>
+        </footer>
+
+
+</body>
+</html>
+
+<script src="index.js"></script>
